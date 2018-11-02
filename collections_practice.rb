@@ -15,8 +15,8 @@ def sort_array_char_count(integers)
 end 
 
 def swap_elements(array)
-  integers[1, 2]
-
+  integers[1, 2] = integers[2,1]
+    array 
 end 
 
 def reverse_array(integers)
