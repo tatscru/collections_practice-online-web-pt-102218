@@ -14,7 +14,7 @@ def sort_array_char_count(integers)
   end 
 end 
 
-def swap_elements(integers)
+def swap_elements(array)
   integers[1, 2]
 
 end 
