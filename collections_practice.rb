@@ -44,6 +44,8 @@ end
 
 
 def add_s(array)
-  
+  array.each do |plural|
+    plural << "s"
+    
   
 end 
