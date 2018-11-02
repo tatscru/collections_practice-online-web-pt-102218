@@ -47,7 +47,9 @@ def add_s(array)
   array.collect do |plural|
     if array[1] == plural 
       plural 
-    plural << "s"
+    else plural << "s"
+  end 
+end 
     
   
 end 
