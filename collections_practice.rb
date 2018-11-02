@@ -16,6 +16,7 @@ end
 
 def swap_elements(array)
   array[1], array [2] = array[2], array[1]
+  each array is independent so they cannot be combined as array[1,2]... meaning this will work 
     array 
 end 
 
