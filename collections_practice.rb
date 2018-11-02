@@ -31,8 +31,9 @@ end
 
 def find_a(integers)
   integers.select do |letter|
-    all items that begin with a will output 
+    # all items that begin with [] will output 
     letter[0] == "a"
+    # letter equal a
   end 
 end
 
