@@ -31,7 +31,7 @@ end
 
 def find_a(integers)
   integers.select do |letter|
-    letter[0] == "a"
+    letter[] == "a"
   end 
 end
 
