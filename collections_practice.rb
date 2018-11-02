@@ -15,7 +15,7 @@ def sort_array_char_count(integers)
 end 
 
 def swap_elements(integers)
-  
+  integers[1, 2]
 
 end 
 
@@ -45,9 +45,12 @@ end
 
 def add_s(array)
   array.collect do |plural|
+    # create a new array to be plural 
     if array[1] == plural 
+      # second word will output the same as it is already plural
       plural 
     else plural << "s"
+      # all others, add an s 
   end 
 end 
     
