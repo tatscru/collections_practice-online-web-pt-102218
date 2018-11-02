@@ -37,7 +37,8 @@ def find_a(integers)
   end 
 end
 
-def sum_array
+def sum_array(integers)
+  integers |a + b|
 
 end 
 
